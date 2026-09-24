@@ -20,18 +20,18 @@ const translations = {
   "Skills": "المهارات",
   "Contact": "التواصل",
   "Murtadha Najem": "مرتضى نجم",
-  "Data Analyst & AI Engineer": "محلل بيانات ومهندس ذكاء اصطناعي",
+  "AI & Data Engineer": "مهندس ذكاء اصطناعي وبيانات",
   "I build end-to-end data pipelines, machine learning systems, and analytical reports that turn raw data into structured insights, with a focus on real-world problems in Iraq and Arabic-language data.": "أبني خطوط معالجة بيانات متكاملة، وأنظمة تعلم آلي، وتقارير تحليلية تحول البيانات الخام إلى رؤى منظمة، مع تركيز على مشكلات واقعية في العراق والبيانات العربية.",
   "View Projects": "عرض المشاريع",
   "Download CV": "تحميل السيرة الذاتية",
-  "Based in Baghdad, Iraq · Open to Data Analyst, BI Analyst, Research Analyst, and AI/ML Engineer roles": "مقيم في بغداد، العراق · متاح لأدوار محلل بيانات، محلل ذكاء أعمال، محلل أبحاث، ومهندس AI/ML",
+  "Currently at Kapita Research, Baghdad, Iraq": "حالياً في Kapita Research، بغداد، العراق",
   "Portfolio Focus": "تركيز المعرض",
-  "Data · AI · Analytics": "البيانات · الذكاء الاصطناعي · التحليلات",
+  "Data, AI, Analytics": "البيانات، الذكاء الاصطناعي، التحليلات",
   "Projects": "المشاريع",
   "Featured": "الأبرز",
   "Modern Stack": "تقنيات حديثة",
   "Clear thinking across data, models, and business problems.": "تفكير واضح يربط بين البيانات والنماذج ومشكلات العمل.",
-  "Results-driven Data Analyst & AI Engineer with a background in Information and Communication Engineering from Al-Nahrain University. I focus on building practical data and AI systems, from data collection and cleaning to machine learning, structured extraction, and insight generation.": "محلل بيانات ومهندس ذكاء اصطناعي يركز على النتائج، بخلفية في هندسة المعلومات والاتصالات من جامعة النهرين. أعمل على بناء أنظمة بيانات وذكاء اصطناعي عملية، من جمع البيانات وتنظيفها إلى التعلم الآلي والاستخراج المنظم وتوليد الرؤى.",
+  "AI & Data Engineer at Kapita Research, a market research firm in Baghdad, where I build the pipelines that take raw data from Iraqi sources, much of it in Arabic, to clean datasets and dashboards. I studied Information and Communication Engineering at Al-Nahrain University and graduated first in my class. I work across the whole chain, from collection and cleaning to machine learning, structured extraction, and the findings that come out of it.": "مهندس ذكاء اصطناعي وبيانات في Kapita Research، شركة أبحاث سوق في بغداد، أبني فيها خطوط البيانات التي تنقل البيانات الخام من المصادر العراقية، وكثير منها بالعربية، إلى مجموعات بيانات نظيفة ولوحات عرض. درست هندسة المعلومات والاتصالات في جامعة النهرين وتخرجت الأول على دفعتي. أعمل على السلسلة كلها، من الجمع والتنظيف إلى التعلم الآلي والاستخراج المنظم والنتائج التي تخرج منها.",
   "Analytics": "التحليلات",
   "Insight-ready reporting and measurement.": "تقارير وقياسات جاهزة لاستخلاص الرؤى.",
   "AI Systems": "أنظمة الذكاء الاصطناعي",
@@ -40,7 +40,7 @@ const translations = {
   "Clear recommendations for stakeholders.": "توصيات واضحة لأصحاب القرار.",
   "Featured Projects": "المشاريع الأبرز",
   "Selected projects that best represent my work in data pipelines, AI systems, audio AI, and communication engineering.": "مشاريع مختارة تمثل عملي في خطوط البيانات، وأنظمة الذكاء الاصطناعي، وذكاء الصوت، وهندسة الاتصالات.",
-  "Spatial Data Analysis · Interactive Dashboard · Arabic Analytical Report": "تحليل بيانات مكانية · داشبورد تفاعلي · تقرير تحليلي عربي",
+  "Spatial Data Analysis, Interactive Dashboard, Arabic Analytical Report": "تحليل بيانات مكانية، داشبورد تفاعلي، تقرير تحليلي عربي",
   "Iraq Service Atlas": "أطلس المربعات: تحليل مكاني لخدمات العراق",
   "Interactive spatial analysis project that maps and analyzes documented service points across Iraq.": "مشروع تحليل مكاني تفاعلي يحوّل أكثر من 135 ألف نقطة خدمة موثقة في العراق إلى أطلس خدمي.",
   "Interactive spatial analysis project that maps and analyzes documented service points across Iraq using geographic grids, administrative boundaries, and service-category classification.": "مشروع تحليل مكاني تفاعلي يحوّل أكثر من 135 ألف نقطة خدمة موثقة في العراق إلى أطلس خدمي يعتمد على الشبكات الجغرافية، مع تقرير عربي وداشبورد لاستكشاف المحافظات، الأقضية، الفئات الخدمية، الكثافة، والتخصصات والفجوات المحتملة.",
@@ -61,7 +61,7 @@ const translations = {
   "View Iraq Service Atlas dashboard": "عرض داشبورد أطلس خدمات العراق",
   "View Iraq Service Atlas report": "عرض تقرير أطلس خدمات العراق",
   "View Iraq Service Atlas LinkedIn post": "عرض منشور LinkedIn الخاص بأطلس خدمات العراق",
-  "End-to-End Data Pipeline · Analytical Report": "خط بيانات متكامل · تقرير تحليلي",
+  "End-to-End Data Pipeline, Analytical Report": "خط بيانات متكامل، تقرير تحليلي",
   "Iraqi Job Market Analysis Pipeline": "خط تحليل سوق العمل العراقي",
   "End-to-end data pipeline and analytical report on Iraq's private-sector job market.": "خط بيانات متكامل وتقرير تحليلي حول سوق العمل في القطاع الخاص العراقي.",
   "End-to-end Iraqi job market data pipeline that collected, filtered, classified, extracted, and analyzed more than 100,000 public job posts to produce a structured dataset and Arabic analytical report.": "خط بيانات متكامل لسوق العمل العراقي جمع وفرز وصنف واستخرج وحلل أكثر من 100,000 منشور وظيفي عام لإنتاج مجموعة بيانات منظمة وتقرير تحليلي باللغة العربية.",
@@ -83,7 +83,7 @@ const translations = {
   "Telegram": "تليجرام",
   "Bot": "بوت",
   "Telegram Bot": "بوت تليجرام",
-  "Bachelor's Final Year Project · Al-Nahrain University": "مشروع التخرج · جامعة النهرين",
+  "Bachelor's Final Year Project, Al-Nahrain University": "مشروع التخرج، جامعة النهرين",
   "Hierarchical LLM 5G/6G Control": "التحكم الهرمي باستخدام LLM في شبكات 5G/6G",
   "Multi-agent AI system for handover and MEC optimization in 5G/6G networks.": "نظام ذكاء اصطناعي متعدد الوكلاء لتحسين التسليم وMEC في شبكات 5G/6G.",
   "Graduation project combining deterministic telecom control agents with a guarded LLM strategy layer for handover and MEC optimization in simulated 5G/6G networks.": "مشروع تخرج يجمع بين وكلاء تحكم حتمي في الاتصالات وطبقة استراتيجية LLM محمية لتحسين التسليم وMEC في شبكات 5G/6G محاكاة.",
@@ -98,7 +98,7 @@ const translations = {
   "Tested 600-second simulations across multiple random seeds and compared GPT-4o-mini, GPT-4.1, and TeleLLM.": "اختبار محاكاة مدتها 600 ثانية عبر بذور عشوائية متعددة ومقارنة GPT-4o-mini وGPT-4.1 وTeleLLM.",
   "View Repository": "عرض المستودع",
   "Research Paper": "ورقة بحثية",
-  "Featured Audio AI Research · Arabic Maqam Recognition": "بحث صوتي مميز بالذكاء الاصطناعي · تمييز المقامات العربية",
+  "Featured Audio AI Research, Arabic Maqam Recognition": "بحث صوتي مميز بالذكاء الاصطناعي، تمييز المقامات العربية",
   "Arabic Maqam Classification": "تصنيف المقامات العربية",
   "Deep learning system for recognizing Arabic maqamat in music and the Holy Quran.": "نظام تعلم عميق للتعرف على المقامات العربية في الموسيقى والقرآن الكريم.",
   "Audio AI project for recognizing Arabic maqamat across music and the Holy Quran, using signal processing, augmentation, and deep learning for a culturally specific Arabic audio problem.": "مشروع ذكاء اصطناعي صوتي للتعرف على المقامات العربية في الموسيقى والقرآن الكريم، باستخدام معالجة الإشارة وزيادة البيانات والتعلم العميق لمشكلة صوتية عربية متخصصة.",
@@ -120,7 +120,7 @@ const translations = {
   "Featured because it targets a culturally specific Arabic audio AI problem.": "مميز لأنه يستهدف مشكلة صوتية عربية ذات خصوصية ثقافية.",
   "Music Notebook": "دفتر الموسيقى",
   "Holy Quran Notebook": "دفتر القرآن الكريم",
-  "Telecommunications · Deep Learning": "الاتصالات · التعلم العميق",
+  "Telecommunications, Deep Learning": "الاتصالات، التعلم العميق",
   "Digital Modulation Classification": "تصنيف التضمين الرقمي",
   "CNN-based classification of digital modulation signals for telecommunications.": "تصنيف إشارات التضمين الرقمي للاتصالات باستخدام CNN.",
   "Telecommunications deep learning project that classifies digital modulation types from I/Q signal data using a family classifier and specialized CNN models.": "مشروع تعلم عميق في الاتصالات يصنف أنواع التضمين الرقمي من بيانات I/Q باستخدام مصنف عائلات ونماذج CNN متخصصة.",
@@ -138,7 +138,7 @@ const translations = {
   "1 project": "مشروع واحد",
   "2 tools": "أداتان",
   "1 initiative": "مبادرة واحدة",
-  "Computer Vision · Medical Imaging": "الرؤية الحاسوبية · التصوير الطبي",
+  "Computer Vision, Medical Imaging": "الرؤية الحاسوبية، التصوير الطبي",
   "X-Ray Chest Classification": "تصنيف الالتهاب الرئوي من خلال صورة الأشعة السينية",
   "Deep learning system for chest X-ray pneumonia classification.": "نظام تعلم عميق لتصنيف الالتهاب الرئوي من صور أشعة الصدر.",
   "This was my first serious project with CNNs and computer vision, built in 2024 while I was learning how deep learning models understand images. I used chest X-ray images to explore binary and multi-class classification with custom CNNs and transfer learning.": "كان هذا أول مشروع جاد لي مع CNN والرؤية الحاسوبية في عام 2024 أثناء تعلمي كيف تفهم نماذج التعلم العميق الصور. استخدمت صور أشعة الصدر لاستكشاف التصنيف الثنائي ومتعدد الفئات باستخدام نماذج CNN مخصصة والتعلم بالنقل.",
@@ -148,7 +148,7 @@ const translations = {
   "Experimented with MobileNet, ResNet152V2, and DenseNet121 transfer learning models.": "تجربة نماذج تعلم بالنقل مثل MobileNet وResNet152V2 وDenseNet121.",
   "Used train/validation/test evaluation with confusion matrices and classification reports.": "استخدام تقييم train/validation/test مع مصفوفات الالتباس وتقارير التصنيف.",
   "Compared approaches for separating bacterial and viral pneumonia classes.": "مقارنة أساليب فصل فئات الالتهاب الرئوي البكتيري والفيروسي.",
-  "Audio ML · Feature Engineering": "تعلم آلي صوتي · هندسة خصائص",
+  "Audio ML, Feature Engineering": "تعلم آلي صوتي، هندسة خصائص",
   "Speech-Based Gender Prediction": "التنبؤ بالجنس اعتماداً على الصوت",
   "Audio feature engineering and machine learning for voice-based gender classification.": "هندسة خصائص صوتية وتعلم آلي لتصنيف الجنس اعتماداً على الصوت.",
   "After image-based deep learning, I wanted to understand how models learn from audio. I extracted MFCC, pitch, spectral, and energy features, then compared machine learning approaches for voice-based gender classification.": "بعد التعلم العميق المعتمد على الصور، أردت فهم كيفية تعلم النماذج من الصوت. استخرجت خصائص MFCC وpitch وspectral وenergy ثم قارنت أساليب تعلم آلي لتصنيف الجنس من الصوت.",
@@ -160,7 +160,7 @@ const translations = {
   "Hardware-to-backend systems combining edge devices, computer vision, and automation.": "أنظمة من العتاد إلى الخلفية تجمع أجهزة edge والرؤية الحاسوبية والأتمتة.",
   "Applied Edge AI System": "نظام Edge AI تطبيقي",
   "Full pipeline from hardware capture to local backend processing and storage.": "خط كامل من الالتقاط عبر العتاد إلى المعالجة والتخزين في خلفية محلية.",
-  "Edge AI · IoT Vision System": "Edge AI · نظام رؤية IoT",
+  "Edge AI, IoT Vision System": "Edge AI، نظام رؤية IoT",
   "Smart Walkway Camera System": "نظام كاميرات الممر الذكي",
   "ESP32-CAM edge-to-server computer vision pipeline for smart walkway monitoring.": "خط رؤية حاسوبية من ESP32-CAM إلى الخادم لمراقبة ممر ذكي.",
   "This project helped me learn how to combine ESP32 hardware with AI in an edge-computing workflow, sending relevant camera frames to a local Flask backend for vision processing and storage.": "ساعدني هذا المشروع على تعلم دمج عتاد ESP32 مع الذكاء الاصطناعي ضمن سير عمل edge computing، عبر إرسال الإطارات المهمة إلى خلفية Flask محلية لمعالجة الرؤية والتخزين.",
@@ -177,7 +177,7 @@ const translations = {
   "Included optional PostgreSQL-backed image logging and multiple ESP32 operating modes.": "تضمين تسجيل اختياري للصور عبر PostgreSQL وعدة أوضاع تشغيل لـ ESP32.",
   "Workflow Automation Tools": "أدوات أتمتة سير العمل",
   "Applied tools built to automate specific tasks and make repeatable workflows easier.": "أدوات تطبيقية بُنيت لأتمتة مهام محددة وتسهيل سير العمل المتكرر.",
-  "Automation · Local-First Tooling": "أتمتة · أدوات محلية أولاً",
+  "Automation, Local-First Tooling": "أتمتة، أدوات محلية أولاً",
   "Video Compression & Phone Sync Suite": "حزمة ضغط الفيديو ومزامنة الهاتف",
   "Local-first video compression and phone sync toolkit with Android automation and Telegram bot support.": "حزمة ضغط فيديو ومزامنة هاتف محلية أولاً مع أتمتة Android ودعم بوت التليجرام.",
   "This project started from a repeated personal problem: phone storage kept filling up because videos take too much space. I built a local-first workflow to pull, compress, report, and sync videos back to the phone.": "بدأ هذا المشروع من مشكلة شخصية متكررة: امتلاء مساحة الهاتف بسبب حجم الفيديوهات. بنيت سير عمل محلياً لسحب الفيديوهات وضغطها وإعداد تقارير عنها ومزامنتها مرة أخرى مع الهاتف.",
@@ -194,7 +194,7 @@ const translations = {
   "Processes video jobs sequentially with a non-blocking internal queue.": "معالجة مهام الفيديو بالتتابع عبر طابور داخلي غير حاجب.",
   "Dynamically selects compression settings based on source bitrate.": "اختيار إعدادات الضغط ديناميكياً حسب bitrate المصدر.",
   "Generates compression reports and space-saving statistics.": "توليد تقارير ضغط وإحصاءات توفير المساحة.",
-  "Product Engineering · Telegram Bot": "هندسة منتج · بوت تليجرام",
+  "Product Engineering, Telegram Bot": "هندسة منتج، بوت تليجرام",
   "Telegram Crochet Pattern Bot": "بوت تليجرام لتحويل الصور إلى أنماط كروشيه",
   "Image-to-crochet-pattern Telegram bot with Arabic support and interactive step-by-step guidance.": "بوت تليجرام يحول الصور إلى أنماط كروشيه مع دعم عربي وإرشاد تفاعلي خطوة بخطوة.",
   "I built this bot after noticing how difficult it can be to manually convert images into crochet patterns. It turns an uploaded image into a crochet-style grid, maps colors, and guides users row by row in Telegram.": "بنيت هذا البوت بعد ملاحظة صعوبة تحويل الصور يدوياً إلى أنماط كروشيه. يحول الصورة المرفوعة إلى شبكة بأسلوب الكروشيه، ويطابق الألوان، ويرشد المستخدم صفاً بصف داخل التليجرام.",
@@ -215,7 +215,7 @@ const translations = {
   "Small exploratory and educational tools built from curiosity and study needs.": "أدوات استكشافية وتعليمية صغيرة بُنيت من الفضول واحتياجات الدراسة.",
   "Experimental & Educational Tools": "أدوات تجريبية وتعليمية",
   "Small exploratory tools built around custom logic, study support, and practical interfaces.": "أدوات استكشافية صغيرة مبنية حول منطق مخصص ودعم دراسي وواجهات عملية.",
-  "Mathematical Programming · Python Tool": "برمجة رياضية · أداة Python",
+  "Mathematical Programming, Python Tool": "برمجة رياضية، أداة Python",
   "InfiniteBaseCalc": "حاسبة الأسس غير التقليدية",
   "Python base-conversion and calculator tool supporting unusual numeric bases.": "أداة Python للتحويل بين الأسس والحساب تدعم أنظمة عددية غير تقليدية.",
   "This older side project started from a math question about number systems beyond everyday bases. I built a converter and calculator to explore negative bases, fractional bases, and custom base logic.": "بدأ هذا المشروع الجانبي القديم من سؤال رياضي حول أنظمة عددية تتجاوز الأسس المعتادة. بنيت محولاً وحاسبة لاستكشاف الأسس السالبة والكسرية ومنطق الأسس المخصص.",
@@ -227,7 +227,7 @@ const translations = {
   "Includes an expression calculator for calculations in a selected base.": "تضمين حاسبة تعبيرات للحساب ضمن أساس مختار.",
   "Includes a testing script for measuring error rates across base and number scenarios.": "تضمين سكريبت اختبار لقياس معدلات الخطأ عبر سيناريوهات مختلفة للأسس والأعداد.",
   "Standard positive-base conversions reached 0% error in tested cases; higher error mainly appears with small fractional bases and large numbers.": "حققت تحويلات الأسس الموجبة القياسية خطأ 0% في الحالات المختبرة؛ وتظهر الأخطاء الأكبر غالباً مع الأسس الكسرية الصغيرة والأعداد الكبيرة.",
-  "Educational Tool · Web Calculator": "أداة تعليمية · حاسبة ويب",
+  "Educational Tool, Web Calculator": "أداة تعليمية، حاسبة ويب",
   "Numerical Methods Calculator Suite": "حزمة حاسبات الطرق العددية",
   "Simple Web Interface": "واجهة ويب بسيطة",
   "Full Step Explanation": "شرح كامل للخطوات",
@@ -236,10 +236,10 @@ const translations = {
   "Built with HTML, CSS, and JavaScript to support classmates during coursework.": "بُنيت باستخدام HTML وCSS وJavaScript لدعم الزملاء أثناء المقرر.",
   "Helps students verify solutions and understand step-by-step numerical procedures.": "تساعد الطلاب على التحقق من الحلول وفهم الإجراءات العددية خطوة بخطوة.",
   "Organized into separate pages and scripts for each method.": "منظمة في صفحات وسكريبتات منفصلة لكل طريقة.",
-  "Includes Bisection, Newton, Secant, False Position, Gaussian, Gauss-Jordan, Gauss-Seidel, Jacobi, Inverse Matrix, and Taylor methods.": "تتضمن طرق Bisection وNewton وSecant وFalse Position وGaussian وGauss-Jordan وGauss-Seidel وJacobi وInverse Matrix وTaylor.",
+  "Includes Bisection, Newton, Secant, Gaussian, Gauss-Jordan, Gauss-Seidel, Jacobi, Inverse Matrix, and Taylor methods.": "تتضمن طرق Bisection وNewton وSecant وGaussian وGauss-Jordan وGauss-Seidel وJacobi وInverse Matrix وTaylor.",
   "Community & Volunteering": "المجتمع والتطوع",
   "Educational documentation and knowledge-sharing work created to support students and future cohorts.": "توثيق تعليمي ومشاركة معرفة لدعم الطلاب والدفعات القادمة.",
-  "Academic Documentation · Knowledge Sharing": "توثيق أكاديمي · مشاركة معرفة",
+  "Academic Documentation, Knowledge Sharing": "توثيق أكاديمي، مشاركة معرفة",
   "ICE 2022-2026 Study Archive": "أرشيف ICE 2022-2026 الدراسي",
   "Structured academic archive and student-friendly explanations for Information & Communication Engineering.": "أرشيف أكاديمي منظم وشروحات مناسبة للطلاب في هندسة المعلومات والاتصالات.",
   "A volunteer educational initiative built to organize, document, and explain study materials for Information & Communication Engineering students across four academic years.": "مبادرة تعليمية تطوعية لتنظيم وتوثيق وشرح مواد دراسة هندسة المعلومات والاتصالات عبر أربع سنوات أكاديمية.",
@@ -262,7 +262,7 @@ const translations = {
   "Academic background and certifications supporting my work in data analysis, machine learning, and applied AI.": "خلفية أكاديمية وشهادات تدعم عملي في تحليل البيانات والتعلم الآلي والذكاء الاصطناعي التطبيقي.",
   "Education": "التعليم",
   "B.Sc. Information and Communication Engineering": "بكالوريوس هندسة المعلومات والاتصالات",
-  "Al-Nahrain University — College of Information Engineering": "جامعة النهرين — كلية هندسة المعلومات",
+  "Al-Nahrain University, College of Information Engineering": "جامعة النهرين، كلية هندسة المعلومات",
   "Graduated June 2026": "التخرج في يونيو 2026",
   "Ranked 1st in class": "الأول على الدفعة",
   "Certifications": "الشهادات",
@@ -280,8 +280,9 @@ const translations = {
   "Full CV": "السيرة الذاتية الكاملة",
   "For full education, experience, certifications, and project history, download the complete CV.": "للاطلاع على التعليم والخبرة والشهادات وتاريخ المشاريع كاملاً، حمّل السيرة الذاتية.",
   "Let's connect about data, AI, and useful work.": "لنتواصل حول البيانات والذكاء الاصطناعي والعمل المفيد.",
-  "Open to Data Analyst, BI Analyst, Research Analyst, and AI/ML Engineer opportunities.": "متاح لفرص محلل بيانات، محلل ذكاء أعمال، محلل أبحاث، ومهندس AI/ML.",
+  "For work, a collaboration, or a question about anything here.": "للعمل، أو التعاون، أو سؤال عن أي شيء هنا.",
   "Email": "البريد الإلكتروني",
+  "Baghdad, Iraq": "بغداد، العراق",
   "Back to top": "العودة للأعلى",
   "Murtadha Najem. All rights reserved.": "مرتضى نجم. جميع الحقوق محفوظة.",
   "Show more": "عرض المزيد",
@@ -294,7 +295,47 @@ const translations = {
   "Toggle navigation menu": "فتح أو إغلاق قائمة التنقل",
   "Go to top": "العودة إلى أعلى الصفحة",
   "Download Murtadha Najem full CV": "تحميل السيرة الذاتية الكاملة لمرتضى نجم",
-  "Open ICE 2022-2026 Study Archive on Telegram": "فتح أرشيف ICE 2022-2026 الدراسي على التليجرام"
+  "Open ICE 2022-2026 Study Archive on Telegram": "فتح أرشيف ICE 2022-2026 الدراسي على التليجرام",
+  "Claude Code Skills": "مهارات Claude Code",
+  "Tools I built to make an AI coding agent better at real data work.": "أدوات بنيتها لتجعل وكيل البرمجة بالذكاء الاصطناعي أفضل في عمل البيانات الحقيقي.",
+  "3 tools": "3 أدوات",
+  "Web Scraping": "سحب البيانات من الويب",
+  "Scraping Skill": "مهارة سحب البيانات",
+  "Teaches the agent how to think about a scraping job: read the source, choose the cheapest honest path, diagnose a block by experiment, and catch data that is silently wrong. Comes with an encyclopedia of 170 tools.": "تعلّم الوكيل كيف يفكر في مهمة سحب بيانات: يقرأ المصدر، ويختار أرخص طريق نزيه، ويشخّص الحجب بالتجربة، ويكشف البيانات الخاطئة التي لا تعلن عن نفسها. ومعها موسوعة من 170 أداة.",
+  "Browser Automation": "أتمتة المتصفح",
+  "Browser Use Skill": "مهارة استخدام المتصفح",
+  "Routes each browser task to the fastest tool that can do it, such as dev-browser, agent-browser, playwright-cli or Chrome DevTools, instead of a screenshot per click.": "توجّه كل مهمة متصفح إلى أسرع أداة تستطيع إنجازها، مثل dev-browser وagent-browser وplaywright-cli وChrome DevTools، بدل لقطة شاشة مع كل نقرة.",
+  "Media Understanding": "فهم المحتوى المرئي",
+  "Claude Reel": "Claude Reel",
+  "Understands any Instagram reel or post from its link: local text recognition in Arabic and English, audio classification and Shazam, with Gemini called only when needed.": "تفهم أي ريل أو منشور على إنستغرام من رابطه: قراءة النص محلياً بالعربية والإنجليزية، وتصنيف الصوت وShazam، ولا تستدعي Gemini إلا عند الحاجة.",
+  "OCR": "OCR",
+  "Audio Classification": "تصنيف الصوت",
+  "Hobbies": "هوايات",
+  "Things I built because the question was interesting, not because anyone needed them.": "أشياء بنيتها لأن السؤال كان ممتعاً، لا لأن أحداً احتاجها.",
+  "5 projects": "5 مشاريع",
+  "Try It": "جرّبها",
+  "Generative Text, Arabic": "نص توليدي، عربي",
+  "Arabic Library of Babel": "مكتبة بابل بالعربية",
+  "Borges's library, written in Arabic: every book that can be made from 42 Arabic symbols, 42^1,312,000 of them, computed in the browser. Search it for any text and it tells you where that text sits.": "مكتبة بورخيس بالعربية: كل كتاب يمكن أن يُكتب بـ 42 رمزاً عربياً، وعددها 42^1,312,000 كتاب، تُحسب داخل المتصفح. ابحث فيها عن أي نص وتدلّك على مكانه.",
+  "Big Numbers": "أعداد ضخمة",
+  "Interactive Lesson": "درس تفاعلي",
+  "Reading QR Codes by Hand": "قراءة رمز QR باليد",
+  "Learn to decode a QR code with nothing but your eyes, step by step, working on the code itself. In English and Arabic.": "تعلّم فك رمز QR بعينيك فقط، خطوة بخطوة، على الرمز نفسه. بالعربية والإنجليزية.",
+  "QR Codes": "رموز QR",
+  "Mental Math": "حساب ذهني",
+  "Doomsday Trainer": "مدرب حساب يوم الأسبوع",
+  "Find the weekday of any date in your head. Five levels, and the questions lean toward whatever you keep getting wrong or answer slowly.": "احسب يوم الأسبوع لأي تاريخ في ذهنك. خمس مراحل، والأسئلة تميل نحو ما تخطئ فيه أو تبطئ في جوابه.",
+  "Calendar Math": "حساب التقويم",
+  "Mathematical Art": "فن رياضي",
+  "Equation Painter": "رسّام المعادلات",
+  "Turns any picture into a single equation of soft ellipses, in the style of Hamid Naderi Yeganeh.": "يحوّل أي صورة إلى معادلة واحدة من قطوع ناقصة ناعمة، على طريقة Hamid Naderi Yeganeh.",
+  "Canvas": "Canvas",
+  "Generative Art": "فن توليدي",
+  "Data over Sound": "بيانات عبر الصوت",
+  "Hams": "همس",
+  "Chat with nearby devices by sound, with no internet. Messages travel as tones between 18 and 19.8 kHz, above what most adults can hear, with groups, receipts and replies.": "دردشة مع الأجهزة القريبة عبر الصوت، دون إنترنت. تنتقل الرسائل نغماتٍ بين 18 و19.8 كيلوهرتز، فوق ما يسمعه أغلب البالغين، مع مجموعات وإشعارات استلام وردود.",
+  "Web Audio": "Web Audio",
+  "PWA": "PWA"
 };
 
 const reverseTranslations = Object.fromEntries(Object.entries(translations).map(([english, arabic]) => [arabic, english]));
@@ -403,6 +444,11 @@ const translateAriaLabel = (value, language) => {
     return `عرض تقرير ${reportMatch[1]}`;
   }
 
+  const openMatch = value.match(/^Open (.+)$/);
+  if (openMatch && !translations[value]) {
+    return `فتح ${translations[openMatch[1]] || openMatch[1]}`;
+  }
+
   const researchMatch = value.match(/^Read (.+) research paper$/);
   if (researchMatch) {
     return `قراءة الورقة البحثية: ${researchMatch[1]}`;
@@ -443,16 +489,16 @@ const setLanguage = (language, shouldSave = true) => {
   document.documentElement.dataset.language = nextLanguage;
   document.title =
     nextLanguage === "ar"
-      ? "مرتضى نجم | محلل بيانات ومهندس ذكاء اصطناعي"
-      : "Murtadha Najem | Data Analyst & AI Engineer";
+      ? "مرتضى نجم | مهندس ذكاء اصطناعي وبيانات"
+      : "Murtadha Najem | AI & Data Engineer";
 
   const description = document.querySelector('meta[name="description"]');
   if (description) {
     description.setAttribute(
       "content",
       nextLanguage === "ar"
-        ? "معرض أعمال مرتضى نجم، محلل بيانات ومهندس ذكاء اصطناعي مقيم في بغداد، العراق."
-        : "Portfolio for Murtadha Najem, Data Analyst and AI Engineer based in Baghdad, Iraq."
+        ? "مرتضى نجم، مهندس ذكاء اصطناعي وبيانات في Kapita Research في بغداد، العراق: المشاريع والمهارات والشهادات."
+        : "Murtadha Najem, AI & Data Engineer at Kapita Research in Baghdad, Iraq: projects, skills and credentials."
     );
   }
 
