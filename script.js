@@ -321,6 +321,7 @@ const translations = {
   "Hobbies": "هوايات",
   "Things I built because the question was interesting, not because anyone needed them.": "أشياء بنيتها لأن السؤال كان ممتعاً، لا لأن أحداً احتاجها.",
   "5 projects": "5 مشاريع",
+  "6 projects": "6 مشاريع",
   "Try It": "جرّبها",
   "Generative Text, Arabic": "نص توليدي، عربي",
   "Arabic Library of Babel": "مكتبة بابل بالعربية",
@@ -343,7 +344,11 @@ const translations = {
   "Hams": "همس",
   "Chat with nearby devices by sound, with no internet. Messages travel as tones between 18 and 19.8 kHz, above what most adults can hear, with groups, receipts and replies.": "دردشة مع الأجهزة القريبة عبر الصوت، دون إنترنت. تنتقل الرسائل نغماتٍ بين 18 و19.8 كيلوهرتز، فوق ما يسمعه أغلب البالغين، مع مجموعات وإشعارات استلام وردود.",
   "Web Audio": "Web Audio",
-  "PWA": "PWA"
+  "PWA": "PWA",
+  "Drawing with Sound": "الرسم بالصوت",
+  "Scope Writer": "اكتب بالصوت",
+  "Type any sentence in Arabic or English and it becomes a stereo sound that writes it on an oscilloscope: the left channel moves the beam across, the right moves it up and down. Slow it down to watch each letter being drawn, then download the sound or a video.": "اكتب أي جملة بالعربية أو الإنجليزية فتصير صوتاً ستيريو يكتبها على شاشة أوسيلوسكوب: القناة اليسرى تحرّك الشعاع أفقياً، واليمنى عمودياً. أبطئه لترى كل حرف وهو يُرسم، ثم نزّل الصوت أو الفيديو.",
+  "HarfBuzz": "HarfBuzz"
 };
 
 const reverseTranslations = Object.fromEntries(Object.entries(translations).map(([english, arabic]) => [arabic, english]));
