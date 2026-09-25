@@ -267,6 +267,8 @@ const translations = {
   "Ranked 1st in class": "الأول على الدفعة",
   "Certifications": "الشهادات",
   "Professional Certifications": "شهادات مهنية",
+  "Claude Certified Architect, Foundations": "شهادة Claude Certified Architect، المستوى التأسيسي",
+  "Anthropic's certification for designing and building applications with Claude, passed in September 2026.": "شهادة Anthropic في تصميم التطبيقات وبنائها باستخدام Claude، اجتزتها في أيلول 2026.",
   "IBM Data Science Professional Certificate": "شهادة IBM المهنية في علم البيانات",
   "Python, SQL, machine learning, and data visualization across 12 courses.": "Python وSQL والتعلم الآلي وتصوير البيانات عبر 12 دورة.",
   "View Credential": "عرض الشهادة",
