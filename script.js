@@ -19,6 +19,7 @@ const translations = {
   "Community": "المجتمع",
   "Skills": "المهارات",
   "Contact": "التواصل",
+  "Credentials": "المؤهلات",
   "Murtadha Najem": "مرتضى نجم",
   "AI & Data Engineer": "مهندس ذكاء اصطناعي وبيانات",
   "I build end-to-end data pipelines, machine learning systems, and analytical reports that turn raw data into structured insights, with a focus on real-world problems in Iraq and Arabic-language data.": "أبني خطوط معالجة بيانات متكاملة، وأنظمة تعلم آلي، وتقارير تحليلية تحول البيانات الخام إلى رؤى منظمة، مع تركيز على مشكلات واقعية في العراق والبيانات العربية.",
