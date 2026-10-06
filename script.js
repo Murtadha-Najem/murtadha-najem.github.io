@@ -11,6 +11,18 @@ const themeStorageKey = "portfolio-theme";
 const languageStorageKey = "portfolio-language";
 
 const translations = {
+  "I build data pipelines and machine learning tools, mostly for Arabic-language data and problems in Iraq.": "أبني خطوط معالجة بيانات وأدوات تعلم آلي، وأغلب عملي على بيانات عربية ومشكلات من العراق.",
+  "Experience": "الخبرة",
+  "Event Operations & Data Coordinator": "منسق عمليات الفعاليات والبيانات",
+  "Network & Data Systems Trainee": "متدرب أنظمة الشبكات والبيانات",
+  "Robotics Trainer": "مدرب روبوتات",
+  "2026 to present": "2026 حتى الآن",
+  "2024 to 2026": "2024 إلى 2026",
+  "2023 to 2024": "2023 إلى 2024",
+  "10 km and 1 km": "10 كم و1 كم",
+  "grids": "شبكات",
+  "IBM Data Engineering Professional Certificate": "شهادة IBM المهنية في هندسة البيانات",
+  "Data pipelines, ETL, relational and NoSQL databases, and big data tools.": "خطوط معالجة البيانات وETL وقواعد البيانات العلائقية وNoSQL وأدوات البيانات الضخمة.",
   "About": "نبذة",
   "Featured": "الأبرز",
   "Practice": "تدريب",

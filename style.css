@@ -436,7 +436,7 @@ h3 {
 
 /* Hero */
 .hero {
-  min-height: calc(100vh - 72px);
+  min-height: min(640px, calc(100vh - 72px));
   display: flex;
   align-items: center;
   background:
@@ -447,7 +447,7 @@ h3 {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.9fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 52px;
   align-items: center;
 }
@@ -481,121 +481,63 @@ h3 {
   font-size: 0.92rem;
 }
 
-.hero-panel {
-  display: grid;
-  gap: 16px;
-  padding: 18px;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  background: var(--color-surface);
-  box-shadow: var(--shadow-soft);
-}
-
-.panel-header {
-  display: flex;
-  gap: 8px;
-  padding-bottom: 2px;
-}
-
-.panel-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: var(--color-border);
-}
-
-.panel-dot:first-child {
-  background: var(--color-accent);
-}
-
-.panel-dot:nth-child(2) {
-  background: var(--color-success);
-}
-
-.metric-row {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-}
-
-.metric-card {
-  padding: 16px;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  background: var(--color-surface);
-}
-
-.metric-card-large {
-  padding: 22px;
-}
-
-.metric-card strong {
-  display: block;
-  margin-top: 4px;
-  font-size: 1.05rem;
-}
-
-.metric-label {
-  color: var(--color-muted);
-  font-size: 0.78rem;
-  font-weight: 700;
-}
-
-.mini-chart {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  align-items: end;
-  gap: 10px;
-  height: 160px;
-  padding: 16px;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  background:
-    linear-gradient(180deg, rgba(37, 99, 235, 0.08), rgba(37, 99, 235, 0.02)),
-    var(--color-surface);
-}
-
-.mini-chart span {
-  display: block;
-  border-radius: 999px 999px 6px 6px;
-  background: linear-gradient(180deg, var(--color-accent), var(--color-success));
-}
-
 /* About */
 .about-grid {
   display: grid;
-  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
-  gap: 32px;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 48px;
   align-items: start;
 }
 
-.highlights-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-}
-
-.highlight-card,
 .project-card,
-.skill-card,
 .credential-card {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   background: var(--color-surface);
 }
 
-.highlight-card {
-  padding: 18px;
+.experience h3 {
+  margin-bottom: 14px;
+  font-size: 1.05rem;
 }
 
-.highlight-card strong {
-  display: block;
-  margin-bottom: 6px;
+.experience-list {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.highlight-card span {
+.experience-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2px 16px;
+  padding: 14px 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.experience-list li:last-child {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.experience-list span:not(.experience-years) {
+  grid-column: 1;
   color: var(--color-muted);
-  font-size: 0.92rem;
+  font-size: 0.95rem;
+}
+
+.experience-years {
+  grid-column: 2;
+  grid-row: 1;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.skills-list {
+  max-width: 860px;
 }
 
 /* Cards and grids */
@@ -1222,7 +1164,6 @@ body.modal-open {
 [data-theme="dark"] .skill-card,
 [data-theme="dark"] .credential-card,
 [data-theme="dark"] .community-card,
-[data-theme="dark"] .hero-panel,
 [data-theme="dark"] .product-project-card,
 [data-theme="dark"] .learning-project-card,
 [data-theme="dark"] .side-project-card,
@@ -1268,10 +1209,6 @@ body.modal-open {
   .hero-grid,
   .about-grid {
     grid-template-columns: 1fr;
-  }
-
-  .hero-panel {
-    max-width: 560px;
   }
 
   .skills-grid,
@@ -1345,7 +1282,6 @@ body.modal-open {
     font-size: clamp(2.45rem, 13vw, 4rem);
   }
 
-  .highlights-grid,
   .featured-grid,
   .project-grid,
   .skills-grid,
@@ -1354,8 +1290,7 @@ body.modal-open {
   .personal-tool-grid,
   .experimental-tool-grid,
   .community-grid,
-  .credentials-grid,
-  .metric-row {
+  .credentials-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1428,7 +1363,6 @@ body.modal-open {
     width: 100%;
   }
 
-  .hero-panel,
   .project-card,
   .skill-card,
   .community-card,
